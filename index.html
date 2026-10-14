@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090b0e">
+<title>AURION N1 ULTRA — BEYOND LIMITS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="loader" id="loader"><div class="loader-inner"><div class="loader-logo">AUR<span>I</span>ON</div><div class="loader-line"></div><div class="loader-text">ENGINEERING THE EXTRAORDINARY</div></div></div>
+<main class="site-shell">
+<div class="cursor-glow"></div>
+<header class="topbar">
+  <a href="#" class="brand" aria-label="Nexora home">AUR<span>I</span>ON<small>BEYOND · LIMITS</small></a>
+  <!--<nav class="nav-feature-list" aria-label="Product features">
+    <button class="nav-feature" data-feature="design"><i class="bi bi-gem"></i>Design</button>
+    <button class="nav-feature" data-feature="display"><i class="bi bi-display"></i>Display</button>
+    <button class="nav-feature" data-feature="performance"><i class="bi bi-cpu"></i>Power</button>
+    <button class="nav-feature" data-feature="camera"><i class="bi bi-camera"></i>Camera</button>
+    <button class="nav-feature" data-feature="battery"><i class="bi bi-battery-charging"></i>Battery</button>
+    <button class="nav-feature" data-feature="audio"><i class="bi bi-soundwave"></i>Audio</button>
+    <button class="nav-feature" data-feature="security"><i class="bi bi-shield-lock"></i>Security</button>
+    <button class="nav-feature" data-feature="connectivity"><i class="bi bi-globe2"></i>Connect</button>
+    <button class="nav-feature" data-feature="ai"><i class="bi bi-stars"></i>AI</button>
+    <button class="nav-feature" data-feature="box"><i class="bi bi-box-seam"></i>In the box</button>
+  </nav>-->
+  <div class="nav-actions">
+    <button class="gold-btn" id="preorderTop">Pre-order <i class="bi bi-arrow-up-right ms-1"></i></button>
+    <button class="mobile-menu" data-bs-toggle="modal" data-bs-target="#allFeaturesModal" aria-label="Open all features"><i class="bi bi-grid-3x3-gap"></i></button>
+  </div>
+</header>
+
+<section class="hero" aria-label="Nexora N1 Ultra product showcase">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="eyebrow-dot"></span> 2026 · THE NEW ARRIVAL</div>
+    <h1>AURION<strong>N1 ULTRA</strong></h1>
+    <p class="tagline">Engineered to inspire.<br>Built to go beyond.</p>
+    <p class="hero-desc">A new perspective on power, precision and possibility. Meet the flagship made for those who never stand still.</p>
+    <div class="hero-buttons">
+      <button class="gold-btn" id="preorderHero">Reserve yours <i class="bi bi-arrow-up-right ms-1"></i></button>
+      <button class="outline-btn" data-feature="overview"><i class="bi bi-play-circle me-2"></i>Discover N1 Ultra</button>
+    </div>
+    <div class="hero-meta"><span><strong>200 MP</strong> CAMERA</span><span><strong>2K</strong> AMOLED</span><span><strong>5500 mAh</strong> POWER</span></div>
+  </div>
+  <!--<div class="product-stage">
+    <div class="orbit"></div><div class="orbit orbit-two"></div>
+    <img class="phone-image" src="assets/nexora-phone.jpg" alt="Nexora N1 Ultra concept smartphone" fetchpriority="high">
+    <div class="stage-caption">Precision in every detail · <span>N1 Ultra</span></div>
+  </div>-->
+  <aside class="award-rail" aria-label="Concept highlights" style="padding-left: 70px;">
+    <div class="award"><i class="bi bi-award"></i><div style="font-size: 15px;line-height: 1.2;font-weight: bold;"><b>Designed to lead</b>Precision-crafted form</div></div>
+    <div class="award"><i class="bi bi-stars"></i><div style="font-size: 15px;line-height: 1.2;font-weight: bold;"><b>AI, evolved</b>Made for your rhythm</div></div>
+    <div class="award"><i class="bi bi-shield-check"></i><div style="font-size: 15px;line-height: 1.2;font-weight: bold;"><b>Privacy first</b>Your world, protected</div></div>
+  </aside>
+</section>
+
+<footer class="bottom-bar">
+  <div class="feature-dock" id="featureDock">
+    <button class="feature-btn" data-feature="design"><span class="icon-ring"><i class="bi bi-gem"></i></span>Design</button>
+    <button class="feature-btn" data-feature="display"><span class="icon-ring"><i class="bi bi-phone"></i></span>Display</button>
+    <button class="feature-btn" data-feature="performance"><span class="icon-ring"><i class="bi bi-cpu"></i></span>Performance</button>
+    <button class="feature-btn" data-feature="camera"><span class="icon-ring"><i class="bi bi-camera"></i></span>Camera</button>
+    <button class="feature-btn" data-feature="battery"><span class="icon-ring"><i class="bi bi-battery-full"></i></span>Battery</button>
+    <button class="feature-btn" data-feature="audio"><span class="icon-ring"><i class="bi bi-soundwave"></i></span>Audio</button>
+    <button class="feature-btn" data-feature="security"><span class="icon-ring"><i class="bi bi-shield-lock"></i></span>Security</button>
+    <button class="feature-btn" data-feature="connectivity"><span class="icon-ring"><i class="bi bi-wifi"></i></span>Connect</button>
+    <button class="feature-btn" data-feature="ai"><span class="icon-ring"><i class="bi bi-stars"></i></span>Nexora AI</button>
+    <button class="feature-btn" data-feature="box"><span class="icon-ring"><i class="bi bi-box-seam"></i></span>In the box</button>
+  </div>
+  <div class="footer-line"><div>&copy; 2026 <span>AURION LABS</span> <span>·</span> CONCEPT EXPERIENCE</div><div>ONE DEVICE <span>·</span><span> INFINITE POSSIBILITIES</span></div></div>
+</footer>
+</main>
+
+<!-- Feature details modal: content is populated by JavaScript -->
+<div class="modal fade" id="featureModal" tabindex="-1" aria-labelledby="featureModalTitle" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable"><div class="modal-content">
+  <div class="modal-header"><div><h2 class="modal-title" id="featureModalTitle">Feature</h2><div class="modal-subtitle" id="featureSubtitle">AURION N1 Ultra</div></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+  <div class="modal-body"><div class="row g-4 align-items-center"><div class="col-md-5"><img class="modal-visual" id="featureImage" src="assets/design.png" alt="Nexora feature visual"></div><div class="col-md-7"><p class="modal-description" id="featureDescription"></p><div class="spec-grid" id="featureSpecs"></div><p class="modal-description mb-0" id="featureFootnote"></p></div></div></div>
+  <div class="modal-footer justify-content-between"><span class="small text-secondary">AURION N1 ULTRA · CONCEPT SPECS</span><button class="gold-btn" id="modalPreorder">Reserve yours <i class="bi bi-arrow-up-right ms-1"></i></button></div>
+ </div></div>
+</div>
+
+<div class="modal fade" id="preorderModal" tabindex="-1" aria-labelledby="preorderTitle" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered"><div class="modal-content">
+  <div class="modal-header"><div><h2 class="modal-title" id="preorderTitle">Make it yours.</h2><div class="modal-subtitle">AURION N1 Ultra · Early access</div></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+  <form id="preorderForm"><div class="modal-body"><div class="d-flex align-items-center gap-3 mb-3"><img src="assets/design.png" alt="" style="width:85px;height:100px;object-fit:cover;border-radius:7px"><div><div class="text-secondary small">INTRODUCTORY CONCEPT PRICE</div><div class="fs-3 fw-semibold">₹79,999</div><div class="text-secondary small">Expected launch · 2026</div></div></div><label class="form-label small" for="customerName">Your name</label><input class="form-control bg-dark text-light border-secondary mb-3" id="customerName" required maxlength="70" placeholder="Enter your name"><label class="form-label small" for="customerEmail">Email address</label><input class="form-control bg-dark text-light border-secondary" id="customerEmail" type="email" required placeholder="you@example.com"><p class="modal-description mt-3 mb-0">This is a front-end demo. Your details are not sent or stored; submitting shows a local confirmation only.</p></div><div class="modal-footer"><button type="button" class="outline-btn" data-bs-dismiss="modal">Maybe later</button><button class="gold-btn" type="submit">Request early access</button></div></form>
+ </div></div>
+</div>
+
+<div class="modal fade" id="allFeaturesModal" tabindex="-1" aria-labelledby="allFeaturesTitle" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><div><h2 class="modal-title" id="allFeaturesTitle">Explore N1 Ultra</h2><div class="modal-subtitle">Every detail, one tap away</div></div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="row g-2" id="allFeatureList"></div></div></div></div>
+</div>
+<div class="toast-container position-fixed bottom-0 end-0 p-3"><div id="siteToast" class="toast custom-toast" role="status" aria-live="polite" aria-atomic="true"><div class="d-flex"><div class="toast-body" id="toastMessage">Done.</div><button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button></div></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js">
+
+</script>
+</body>
+</html>
